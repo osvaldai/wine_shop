@@ -1,0 +1,149 @@
+/* products/static/products/css/styles.css */
+
+/* Основные стили */
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    background-color: #000;  /* Темный фон */
+    color: #fff;  /* Белый текст */
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+header {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #111;  /* Темный фон для хедера */
+}
+
+nav {
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    height: 50px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.hero-section {
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.hero-section h1 {
+    font-size: 4rem;
+    margin-bottom: 20px;
+}
+
+.hero-section p {
+    font-size: 1.5rem;
+    margin-bottom: 40px;
+}
+
+.btn {
+    padding: 15px 30px;
+    background-color: #0071e3;
+    color: #fff;
+    border: none;
+    border-radius: 30px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #005bb5;
+}
+
+/* Product Section */
+.product-showcase {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+    background-color: #111;
+}
+
+.product-image {
+    width: 40%;
+    border-radius: 20px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+    margin-right: 50px;
+}
+
+.product-details {
+    max-width: 40%;
+}
+
+.product-details h2 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.product-details p {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #000;
+    color: #777;
+}
+/* products/static/products/css/styles.css */
+
+/* Секция с историей вина */
+.wine-history {
+    padding: 50px 20px;
+    background-color: #111;
+    color: #fff;
+    text-align: center;
+}
+
+.wine-history .content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.wine-history h2 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.wine-history p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.wine-history .history-image {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 20px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+    margin-top: 20px;
+}

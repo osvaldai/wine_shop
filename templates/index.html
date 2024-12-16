@@ -1,0 +1,58 @@
+<!-- products/templates/products/index.html -->
+
+<!DOCTYPE html>
+<html lang="ru">
+{% load static %}
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Элитное вино</title>
+    <link rel="stylesheet" href="{% static 'products/css/styles.css' %}">
+    <script defer src="{% static 'products/js/scripts.js' %}"></script>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <nav>
+            <img src="{% static 'products/img/logo2.png' %}" alt="Логотип" class="logo">
+            <ul>
+                <li><a href="#">Продукты</a></li>
+                <li><a href="#">О компании</a></li>
+                <li><a href="#">Контакты</a></li>
+            </ul>
+        </nav>
+        <div class="hero-section">
+            <h1>Ощутите вкус роскоши</h1>
+            <p>Самое элитное вино, созданное с любовью и мастерством.</p>
+            <a href="#" class="btn">Купить сейчас</a>
+        </div>
+    </header>
+
+  <!-- История вина Section -->
+    <section class="wine-history">
+        <div class="content">
+            <h2>История вина</h2>
+            <p>Вино является неотъемлемой частью культуры с древних времен. Еще в Древнем Египте и Месопотамии виноград использовался для создания первых сортов напитка, который почитался как дар богов.</p>
+            <p>Археологические находки свидетельствуют о том, что виноделие существовало уже 8000 лет назад в Грузии и Армении. Со временем культура виноделия распространилась по всему миру, захватив Средиземноморье и Европу.</p>
+            <img src="{% static 'products/img/history_wine.png' %}" alt="История вина" class="history-image">
+        </div>
+    </section>
+    <!-- Product Section -->
+    <section class="product-showcase">
+        <img src="{% static 'products/img/wine.png' %}" alt="Элитное вино" class="product-image">
+        <div class="product-details">
+            <h2>Элитное Вино</h2>
+            <p>История производства этого вина начинается на лучших виноградниках мира, где каждая деталь важна для создания непревзойденного вкуса и аромата.</p>
+            <p>Цена: 15 000 €</p>
+            <button id="buy-now" class="btn">Купить сейчас</button>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Элитное вино. Все права защищены.</p>
+    </footer>
+
+</body>
+</html>
